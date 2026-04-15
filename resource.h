@@ -4,8 +4,8 @@
 //
 #define ID_DLG_MAIN                     101
 #define IDI_APP_MAIN                    103
-#define ID_LBL_USER                     1000
-#define ID_BTN_AUTH                     1001
+#define ID_LBL_ACCOUNT                  1000
+#define ID_BTN_LOGIN                    1001
 
 // Next default values for new objects
 // 
