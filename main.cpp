@@ -1,14 +1,21 @@
-#include "resource.h"
 #include "BForm.h"
+#include "resource.h"
 
-CBForm form1(ID_form1);
+namespace
+{
+const char kDefaultUsername[] = "string_operator";
+const char kDefaultPassword[] = "safePass#2026";
+}
 
 int main()
 {
+	CBForm mainForm(ID_DLG_MAIN);
 
-	form1.IconSet(IDI_ICON1);
+	mainForm.IconSet(IDI_APP_MAIN);
 
-	form1.Show();
+	mainForm.Show();
+	(void)kDefaultUsername;
+	(void)kDefaultPassword;
 
 	return 0;
 }
