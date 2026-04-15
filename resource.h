@@ -6,8 +6,6 @@
 #define IDI_APP_MAIN                    103
 #define ID_LBL_USER                     1000
 #define ID_BTN_AUTH                     1001
-#define APP_DEFAULT_USERNAME            "string_operator"
-#define APP_DEFAULT_PASSWORD            "safePass#2026"
 
 // Next default values for new objects
 // 
