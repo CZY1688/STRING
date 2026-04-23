@@ -2,10 +2,10 @@
 // Microsoft Developer Studio generated include file.
 // Used by template.rc
 //
-#define ID_form1                        101
-#define IDI_ICON1                       103
-#define ID_txt1                         1000
-#define ID_cmd1                         1001
+#define ID_DLG_MAIN                     101
+#define IDI_APP_MAIN                    103
+#define ID_LBL_ACCOUNT                  1000
+#define ID_BTN_LOGIN                    1001
 
 // Next default values for new objects
 // 

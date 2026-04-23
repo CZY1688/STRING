@@ -26,12 +26,14 @@ LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
 // Dialog
 //
 
-ID_form1 DIALOG DISCARDABLE  200, 100, 202, 119
+ID_DLG_MAIN DIALOG DISCARDABLE  200, 100, 202, 119
 STYLE WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | 
     WS_THICKFRAME
-CAPTION "Œ“µƒ¥∞ÃÂ"
-FONT 9, "ÀŒÃÂ"
+CAPTION "Ê®°ÊùøÁ™óÂè£"
+FONT 9, "ÔøΩÔøΩÔøΩÔøΩ"
 BEGIN
+    LTEXT           "Ë¥¶Âè∑",ID_LBL_ACCOUNT,18,21,24,9
+    PUSHBUTTON      "ÁôªÂΩï",ID_BTN_LOGIN,145,90,42,14
 END
 
 
@@ -43,7 +45,7 @@ END
 #ifdef APSTUDIO_INVOKED
 GUIDELINES DESIGNINFO DISCARDABLE 
 BEGIN
-    ID_form1, DIALOG
+    ID_DLG_MAIN, DIALOG
     BEGIN
         LEFTMARGIN, 7
         RIGHTMARGIN, 195
@@ -94,7 +96,7 @@ END
 
 // Icon with lowest ID value placed first to ensure application icon
 // remains consistent on all systems.
-IDI_ICON1               ICON    DISCARDABLE     "main.ico"
+IDI_APP_MAIN            ICON    DISCARDABLE     "main.ico"
 #endif    // Chinese (P.R.C.) resources
 /////////////////////////////////////////////////////////////////////////////
 
